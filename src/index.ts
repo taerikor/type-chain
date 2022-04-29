@@ -96,9 +96,3 @@ const addBlock = (candidateBlock: Block) : void => {
         blockchain.push(candidateBlock)
     }
 }
-
-createNewBlock('first')
-createNewBlock('second')
-createNewBlock('third')
-
-console.log(blockchain)
